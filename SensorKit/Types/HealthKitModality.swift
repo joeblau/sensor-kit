@@ -12,7 +12,7 @@ import HealthKit
 // swiftlint:disable type_body_length
 public class HealthKitModality {
     private let healthKitStore = HKHealthStore()
-    public private(set) static var healthKitAuthorizationSets = Set<HKObjectType>(arrayLiteral:
+    public private(set) var healthKitAuthorizationSets = Set<HKObjectType>(arrayLiteral:
                                                        HKQuantityTypeIdentifier.bodyMassIndex.objectType,
                                                        HKQuantityTypeIdentifier.bodyFatPercentage.objectType,
                                                        HKQuantityTypeIdentifier.height.objectType,
@@ -106,7 +106,7 @@ public class HealthKitModality {
                                                        HKObjectType.workoutType()
     )
 
-    public private(set) static var stimulus = HealthKitModalityModel(bodyMassIndex: nil,
+    public private(set) var stimulus = HealthKitModalityModel(bodyMassIndex: nil,
                                                               bodyFatPercentage: nil,
                                                               height: nil,
                                                               bodyMass: nil,
