@@ -192,6 +192,10 @@ public class HealthKitModality {
                                                               wheelchairUse: nil,
                                                               workout: nil)
 
+    public init() {
+        healthKitStore.requestAuthorization(toShare: nil, read: healthKitAuthorizationSets, completion: nil)
+    }
+    
     public func updateStimulus() {
         healthKitAuthorizationSets
             .map { (objectType) -> HKSampleType? in
