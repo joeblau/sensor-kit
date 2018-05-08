@@ -73,6 +73,44 @@
 		E69FE23C203FBA41007CC284 /* Modality+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE218203FBA40007CC284 /* Modality+Extensions.swift */; };
 		E69FE23D203FBA41007CC284 /* TimeModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE219203FBA40007CC284 /* TimeModalityModel.swift */; };
 		E69FE23E203FBA41007CC284 /* WifiModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE21A203FBA40007CC284 /* WifiModality.swift */; };
+		E6B25B8820A25CC5004C58DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25B8720A25CC5004C58DB /* AppDelegate.swift */; };
+		E6B25B8A20A25CC5004C58DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25B8920A25CC5004C58DB /* ViewController.swift */; };
+		E6B25B8F20A25CC6004C58DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B25B8E20A25CC6004C58DB /* Assets.xcassets */; };
+		E6B25B9220A25CC6004C58DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B25B9020A25CC6004C58DB /* LaunchScreen.storyboard */; };
+		E6B25B9720A25CD1004C58DB /* HealthKitModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1F9203FBA40007CC284 /* HealthKitModalityModel.swift */; };
+		E6B25B9820A25CD1004C58DB /* CellularNetworkModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FA203FBA40007CC284 /* CellularNetworkModalityModel.swift */; };
+		E6B25B9920A25CD1004C58DB /* AltitudeModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FB203FBA40007CC284 /* AltitudeModalityModel.swift */; };
+		E6B25B9A20A25CD1004C58DB /* CellularNetworkModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FC203FBA40007CC284 /* CellularNetworkModality.swift */; };
+		E6B25B9B20A25CD1004C58DB /* LocaleModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FD203FBA40007CC284 /* LocaleModality.swift */; };
+		E6B25B9C20A25CD1004C58DB /* AstronomyModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FE203FBA40007CC284 /* AstronomyModalityModel.swift */; };
+		E6B25B9D20A25CD1004C58DB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1FF203FBA40007CC284 /* String+Extensions.swift */; };
+		E6B25B9E20A25CD1004C58DB /* TouchIDModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE200203FBA40007CC284 /* TouchIDModality.swift */; };
+		E6B25B9F20A25CD1004C58DB /* ProximityModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE201203FBA40007CC284 /* ProximityModality.swift */; };
+		E6B25BA020A25CD1004C58DB /* BatteryModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE202203FBA40007CC284 /* BatteryModality.swift */; };
+		E6B25BA120A25CD1004C58DB /* MotionModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE203203FBA40007CC284 /* MotionModalityModel.swift */; };
+		E6B25BA220A25CD1004C58DB /* TouchIDModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE204203FBA40007CC284 /* TouchIDModalityModel.swift */; };
+		E6B25BA320A25CD1004C58DB /* LocaleModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE205203FBA40007CC284 /* LocaleModalityModel.swift */; };
+		E6B25BA420A25CD1004C58DB /* LocationModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE206203FBA40007CC284 /* LocationModality.swift */; };
+		E6B25BA520A25CD1004C58DB /* BatteryModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE207203FBA40007CC284 /* BatteryModalityModel.swift */; };
+		E6B25BA620A25CD1004C58DB /* MotionActivityModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE208203FBA40007CC284 /* MotionActivityModalityModel.swift */; };
+		E6B25BA720A25CD1004C58DB /* HealthKitModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE209203FBA40007CC284 /* HealthKitModality.swift */; };
+		E6B25BA820A25CD1004C58DB /* DeviceModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20A203FBA40007CC284 /* DeviceModality.swift */; };
+		E6B25BA920A25CD1004C58DB /* DeviceModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20B203FBA40007CC284 /* DeviceModalityModel.swift */; };
+		E6B25BAA20A25CD1004C58DB /* AltitudeModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20C203FBA40007CC284 /* AltitudeModality.swift */; };
+		E6B25BAB20A25CD1004C58DB /* ProcessInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20D203FBA40007CC284 /* ProcessInfo+Extensions.swift */; };
+		E6B25BAC20A25CD1004C58DB /* MotionActivityModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20E203FBA40007CC284 /* MotionActivityModality.swift */; };
+		E6B25BAD20A25CD1004C58DB /* LocationModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE20F203FBA40007CC284 /* LocationModalityModel.swift */; };
+		E6B25BAE20A25CD1004C58DB /* UpdateStimulusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE210203FBA40007CC284 /* UpdateStimulusProtocol.swift */; };
+		E6B25BAF20A25CD1004C58DB /* TimeModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE211203FBA40007CC284 /* TimeModality.swift */; };
+		E6B25BB020A25CD1004C58DB /* BluetoothModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE212203FBA40007CC284 /* BluetoothModalityModel.swift */; };
+		E6B25BB120A25CD1004C58DB /* AstronomyModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE213203FBA40007CC284 /* AstronomyModality.swift */; };
+		E6B25BB220A25CD1004C58DB /* BluetoothModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE214203FBA40007CC284 /* BluetoothModality.swift */; };
+		E6B25BB320A25CD1004C58DB /* ProximityModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE215203FBA40007CC284 /* ProximityModalityModel.swift */; };
+		E6B25BB420A25CD1004C58DB /* WifiModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE216203FBA40007CC284 /* WifiModalityModel.swift */; };
+		E6B25BB520A25CD1004C58DB /* MotionModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE217203FBA40007CC284 /* MotionModality.swift */; };
+		E6B25BB620A25CD1004C58DB /* Modality+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE218203FBA40007CC284 /* Modality+Extensions.swift */; };
+		E6B25BB720A25CD1004C58DB /* TimeModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE219203FBA40007CC284 /* TimeModalityModel.swift */; };
+		E6B25BB820A25CD1004C58DB /* WifiModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE21A203FBA40007CC284 /* WifiModality.swift */; };
 		E6D7256320403CDB004D29EB /* AstronomyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7256220403CDB004D29EB /* AstronomyKit.framework */; };
 		E6D7258A20403F7C004D29EB /* AstronomyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7256220403CDB004D29EB /* AstronomyKit.framework */; };
 		E6D7258F204040E1004D29EB /* AstronomyKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E6D7256220403CDB004D29EB /* AstronomyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -172,6 +210,12 @@
 		E69FE219203FBA40007CC284 /* TimeModalityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModalityModel.swift; sourceTree = "<group>"; };
 		E69FE21A203FBA40007CC284 /* WifiModality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiModality.swift; sourceTree = "<group>"; };
 		E69FE21C203FBA41007CC284 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6B25B8520A25CC5004C58DB /* SensorKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B25B8720A25CC5004C58DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6B25B8920A25CC5004C58DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6B25B8E20A25CC6004C58DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6B25B9120A25CC6004C58DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6B25B9320A25CC6004C58DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6D7256220403CDB004D29EB /* AstronomyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AstronomyKit.framework; path = Carthage/Build/iOS/AstronomyKit.framework; sourceTree = "<group>"; };
 		E6D7256720403E17004D29EB /* SensorKitTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SensorKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,6 +238,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6B25B8220A25CC5004C58DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -202,6 +253,7 @@
 			children = (
 				E69FE19C203FB4A8007CC284 /* SensorKit */,
 				E69FE1A7203FB4A8007CC284 /* SensorKitTests */,
+				E6B25B8620A25CC5004C58DB /* SensorKit-Demo */,
 				E69FE19B203FB4A8007CC284 /* Products */,
 				E6D721B22040330E004D29EB /* Frameworks */,
 			);
@@ -212,6 +264,7 @@
 			children = (
 				E69FE19A203FB4A8007CC284 /* SensorKit.framework */,
 				E69FE1A3203FB4A8007CC284 /* SensorKitTests.xctest */,
+				E6B25B8520A25CC5004C58DB /* SensorKit-Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,6 +384,18 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		E6B25B8620A25CC5004C58DB /* SensorKit-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E6B25B8720A25CC5004C58DB /* AppDelegate.swift */,
+				E6B25B8920A25CC5004C58DB /* ViewController.swift */,
+				E6B25B8E20A25CC6004C58DB /* Assets.xcassets */,
+				E6B25B9020A25CC6004C58DB /* LaunchScreen.storyboard */,
+				E6B25B9320A25CC6004C58DB /* Info.plist */,
+			);
+			path = "SensorKit-Demo";
+			sourceTree = "<group>";
+		};
 		E6D721B22040330E004D29EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -390,13 +455,30 @@
 			productReference = E69FE1A3203FB4A8007CC284 /* SensorKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E6B25B8420A25CC5004C58DB /* SensorKit-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6B25B9620A25CC6004C58DB /* Build configuration list for PBXNativeTarget "SensorKit-Demo" */;
+			buildPhases = (
+				E6B25B8120A25CC5004C58DB /* Sources */,
+				E6B25B8220A25CC5004C58DB /* Frameworks */,
+				E6B25B8320A25CC5004C58DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SensorKit-Demo";
+			productName = "SensorKit-Demo";
+			productReference = E6B25B8520A25CC5004C58DB /* SensorKit-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		E69FE191203FB4A8007CC284 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Bodlog;
 				TargetAttributes = {
@@ -408,6 +490,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					E6B25B8420A25CC5004C58DB = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = E69FE194203FB4A8007CC284 /* Build configuration list for PBXProject "SensorKit" */;
@@ -416,6 +502,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E69FE190203FB4A8007CC284;
 			productRefGroup = E69FE19B203FB4A8007CC284 /* Products */;
@@ -424,6 +511,7 @@
 			targets = (
 				E69FE199203FB4A8007CC284 /* SensorKit */,
 				E69FE1A2203FB4A8007CC284 /* SensorKitTests */,
+				E6B25B8420A25CC5004C58DB /* SensorKit-Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -440,6 +528,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6B25B8320A25CC5004C58DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B25B9220A25CC6004C58DB /* LaunchScreen.storyboard in Resources */,
+				E6B25B8F20A25CC6004C58DB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +640,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6B25B8120A25CC5004C58DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B25BB720A25CD1004C58DB /* TimeModalityModel.swift in Sources */,
+				E6B25BAB20A25CD1004C58DB /* ProcessInfo+Extensions.swift in Sources */,
+				E6B25B9920A25CD1004C58DB /* AltitudeModalityModel.swift in Sources */,
+				E6B25B9720A25CD1004C58DB /* HealthKitModalityModel.swift in Sources */,
+				E6B25B8A20A25CC5004C58DB /* ViewController.swift in Sources */,
+				E6B25BA620A25CD1004C58DB /* MotionActivityModalityModel.swift in Sources */,
+				E6B25BB120A25CD1004C58DB /* AstronomyModality.swift in Sources */,
+				E6B25BAC20A25CD1004C58DB /* MotionActivityModality.swift in Sources */,
+				E6B25B8820A25CC5004C58DB /* AppDelegate.swift in Sources */,
+				E6B25B9D20A25CD1004C58DB /* String+Extensions.swift in Sources */,
+				E6B25B9820A25CD1004C58DB /* CellularNetworkModalityModel.swift in Sources */,
+				E6B25BA320A25CD1004C58DB /* LocaleModalityModel.swift in Sources */,
+				E6B25B9B20A25CD1004C58DB /* LocaleModality.swift in Sources */,
+				E6B25BA920A25CD1004C58DB /* DeviceModalityModel.swift in Sources */,
+				E6B25BA120A25CD1004C58DB /* MotionModalityModel.swift in Sources */,
+				E6B25BB020A25CD1004C58DB /* BluetoothModalityModel.swift in Sources */,
+				E6B25BAF20A25CD1004C58DB /* TimeModality.swift in Sources */,
+				E6B25BB520A25CD1004C58DB /* MotionModality.swift in Sources */,
+				E6B25BA820A25CD1004C58DB /* DeviceModality.swift in Sources */,
+				E6B25BB620A25CD1004C58DB /* Modality+Extensions.swift in Sources */,
+				E6B25BB220A25CD1004C58DB /* BluetoothModality.swift in Sources */,
+				E6B25BAD20A25CD1004C58DB /* LocationModalityModel.swift in Sources */,
+				E6B25B9F20A25CD1004C58DB /* ProximityModality.swift in Sources */,
+				E6B25BB320A25CD1004C58DB /* ProximityModalityModel.swift in Sources */,
+				E6B25BB420A25CD1004C58DB /* WifiModalityModel.swift in Sources */,
+				E6B25BA220A25CD1004C58DB /* TouchIDModalityModel.swift in Sources */,
+				E6B25BA520A25CD1004C58DB /* BatteryModalityModel.swift in Sources */,
+				E6B25B9A20A25CD1004C58DB /* CellularNetworkModality.swift in Sources */,
+				E6B25B9C20A25CD1004C58DB /* AstronomyModalityModel.swift in Sources */,
+				E6B25BA420A25CD1004C58DB /* LocationModality.swift in Sources */,
+				E6B25BAA20A25CD1004C58DB /* AltitudeModality.swift in Sources */,
+				E6B25BA720A25CD1004C58DB /* HealthKitModality.swift in Sources */,
+				E6B25BA020A25CD1004C58DB /* BatteryModality.swift in Sources */,
+				E6B25BAE20A25CD1004C58DB /* UpdateStimulusProtocol.swift in Sources */,
+				E6B25B9E20A25CD1004C58DB /* TouchIDModality.swift in Sources */,
+				E6B25BB820A25CD1004C58DB /* WifiModality.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -552,6 +692,17 @@
 			targetProxy = E69FE1A5203FB4A8007CC284 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6B25B9020A25CC6004C58DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6B25B9120A25CC6004C58DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E69FE1AC203FB4A8007CC284 /* Debug */ = {
@@ -753,6 +904,44 @@
 			};
 			name = Release;
 		};
+		E6B25B9420A25CC6004C58DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K78G42H4U2;
+				INFOPLIST_FILE = "SensorKit-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeblau.SensorKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6B25B9520A25CC6004C58DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K78G42H4U2;
+				INFOPLIST_FILE = "SensorKit-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeblau.SensorKit-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -779,6 +968,15 @@
 			buildConfigurations = (
 				E69FE1B2203FB4A8007CC284 /* Debug */,
 				E69FE1B3203FB4A8007CC284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6B25B9620A25CC6004C58DB /* Build configuration list for PBXNativeTarget "SensorKit-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B25B9420A25CC6004C58DB /* Debug */,
+				E6B25B9520A25CC6004C58DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
