@@ -73,8 +73,14 @@
 		E69FE23C203FBA41007CC284 /* Modality+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE218203FBA40007CC284 /* Modality+Extensions.swift */; };
 		E69FE23D203FBA41007CC284 /* TimeModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE219203FBA40007CC284 /* TimeModalityModel.swift */; };
 		E69FE23E203FBA41007CC284 /* WifiModality.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE21A203FBA40007CC284 /* WifiModality.swift */; };
+		E6AE115220A25F0400E61E7E /* AstronomyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7256220403CDB004D29EB /* AstronomyKit.framework */; };
+		E6AE115320A25F0400E61E7E /* AstronomyKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6D7256220403CDB004D29EB /* AstronomyKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E6AE115620A27DEC00E61E7E /* TodayViewCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE115520A27DEC00E61E7E /* TodayViewCollectionViewController.swift */; };
+		E6AE115820A27E1C00E61E7E /* TodayViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE115720A27E1C00E61E7E /* TodayViewDataSource.swift */; };
+		E6AE115D20A284AC00E61E7E /* TodayViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE115C20A284AC00E61E7E /* TodayViewFlowLayout.swift */; };
+		E6AE116220A309DA00E61E7E /* BaseRoundedCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE116120A309DA00E61E7E /* BaseRoundedCardCell.swift */; };
+		E6AE116420A30CDF00E61E7E /* TodayViewDelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AE116320A30CDF00E61E7E /* TodayViewDelegateFlowLayout.swift */; };
 		E6B25B8820A25CC5004C58DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25B8720A25CC5004C58DB /* AppDelegate.swift */; };
-		E6B25B8A20A25CC5004C58DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B25B8920A25CC5004C58DB /* ViewController.swift */; };
 		E6B25B8F20A25CC6004C58DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6B25B8E20A25CC6004C58DB /* Assets.xcassets */; };
 		E6B25B9220A25CC6004C58DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6B25B9020A25CC6004C58DB /* LaunchScreen.storyboard */; };
 		E6B25B9720A25CD1004C58DB /* HealthKitModalityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69FE1F9203FBA40007CC284 /* HealthKitModalityModel.swift */; };
@@ -127,6 +133,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		E6AE115420A25F0400E61E7E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6AE115320A25F0400E61E7E /* AstronomyKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6D7258E204040D9004D29EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,9 +227,13 @@
 		E69FE219203FBA40007CC284 /* TimeModalityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeModalityModel.swift; sourceTree = "<group>"; };
 		E69FE21A203FBA40007CC284 /* WifiModality.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiModality.swift; sourceTree = "<group>"; };
 		E69FE21C203FBA41007CC284 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6AE115520A27DEC00E61E7E /* TodayViewCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewCollectionViewController.swift; sourceTree = "<group>"; };
+		E6AE115720A27E1C00E61E7E /* TodayViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewDataSource.swift; sourceTree = "<group>"; };
+		E6AE115C20A284AC00E61E7E /* TodayViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewFlowLayout.swift; sourceTree = "<group>"; };
+		E6AE116120A309DA00E61E7E /* BaseRoundedCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRoundedCardCell.swift; sourceTree = "<group>"; };
+		E6AE116320A30CDF00E61E7E /* TodayViewDelegateFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewDelegateFlowLayout.swift; sourceTree = "<group>"; };
 		E6B25B8520A25CC5004C58DB /* SensorKit-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorKit-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B25B8720A25CC5004C58DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6B25B8920A25CC5004C58DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6B25B8E20A25CC6004C58DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6B25B9120A25CC6004C58DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6B25B9320A25CC6004C58DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -242,6 +263,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6AE115220A25F0400E61E7E /* AstronomyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,11 +406,31 @@
 			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		E6AE115B20A283D700E61E7E /* TodayView */ = {
+			isa = PBXGroup;
+			children = (
+				E6AE116020A309B900E61E7E /* Cells */,
+				E6AE115520A27DEC00E61E7E /* TodayViewCollectionViewController.swift */,
+				E6AE115720A27E1C00E61E7E /* TodayViewDataSource.swift */,
+				E6AE115C20A284AC00E61E7E /* TodayViewFlowLayout.swift */,
+				E6AE116320A30CDF00E61E7E /* TodayViewDelegateFlowLayout.swift */,
+			);
+			path = TodayView;
+			sourceTree = "<group>";
+		};
+		E6AE116020A309B900E61E7E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E6AE116120A309DA00E61E7E /* BaseRoundedCardCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		E6B25B8620A25CC5004C58DB /* SensorKit-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E6AE115B20A283D700E61E7E /* TodayView */,
 				E6B25B8720A25CC5004C58DB /* AppDelegate.swift */,
-				E6B25B8920A25CC5004C58DB /* ViewController.swift */,
 				E6B25B8E20A25CC6004C58DB /* Assets.xcassets */,
 				E6B25B9020A25CC6004C58DB /* LaunchScreen.storyboard */,
 				E6B25B9320A25CC6004C58DB /* Info.plist */,
@@ -462,6 +504,7 @@
 				E6B25B8120A25CC5004C58DB /* Sources */,
 				E6B25B8220A25CC5004C58DB /* Frameworks */,
 				E6B25B8320A25CC5004C58DB /* Resources */,
+				E6AE115420A25F0400E61E7E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -647,8 +690,8 @@
 				E6B25BB720A25CD1004C58DB /* TimeModalityModel.swift in Sources */,
 				E6B25BAB20A25CD1004C58DB /* ProcessInfo+Extensions.swift in Sources */,
 				E6B25B9920A25CD1004C58DB /* AltitudeModalityModel.swift in Sources */,
+				E6AE116220A309DA00E61E7E /* BaseRoundedCardCell.swift in Sources */,
 				E6B25B9720A25CD1004C58DB /* HealthKitModalityModel.swift in Sources */,
-				E6B25B8A20A25CC5004C58DB /* ViewController.swift in Sources */,
 				E6B25BA620A25CD1004C58DB /* MotionActivityModalityModel.swift in Sources */,
 				E6B25BB120A25CD1004C58DB /* AstronomyModality.swift in Sources */,
 				E6B25BAC20A25CD1004C58DB /* MotionActivityModality.swift in Sources */,
@@ -657,7 +700,9 @@
 				E6B25B9820A25CD1004C58DB /* CellularNetworkModalityModel.swift in Sources */,
 				E6B25BA320A25CD1004C58DB /* LocaleModalityModel.swift in Sources */,
 				E6B25B9B20A25CD1004C58DB /* LocaleModality.swift in Sources */,
+				E6AE115620A27DEC00E61E7E /* TodayViewCollectionViewController.swift in Sources */,
 				E6B25BA920A25CD1004C58DB /* DeviceModalityModel.swift in Sources */,
+				E6AE116420A30CDF00E61E7E /* TodayViewDelegateFlowLayout.swift in Sources */,
 				E6B25BA120A25CD1004C58DB /* MotionModalityModel.swift in Sources */,
 				E6B25BB020A25CD1004C58DB /* BluetoothModalityModel.swift in Sources */,
 				E6B25BAF20A25CD1004C58DB /* TimeModality.swift in Sources */,
@@ -671,6 +716,7 @@
 				E6B25BB420A25CD1004C58DB /* WifiModalityModel.swift in Sources */,
 				E6B25BA220A25CD1004C58DB /* TouchIDModalityModel.swift in Sources */,
 				E6B25BA520A25CD1004C58DB /* BatteryModalityModel.swift in Sources */,
+				E6AE115820A27E1C00E61E7E /* TodayViewDataSource.swift in Sources */,
 				E6B25B9A20A25CD1004C58DB /* CellularNetworkModality.swift in Sources */,
 				E6B25B9C20A25CD1004C58DB /* AstronomyModalityModel.swift in Sources */,
 				E6B25BA420A25CD1004C58DB /* LocationModality.swift in Sources */,
@@ -678,6 +724,7 @@
 				E6B25BA720A25CD1004C58DB /* HealthKitModality.swift in Sources */,
 				E6B25BA020A25CD1004C58DB /* BatteryModality.swift in Sources */,
 				E6B25BAE20A25CD1004C58DB /* UpdateStimulusProtocol.swift in Sources */,
+				E6AE115D20A284AC00E61E7E /* TodayViewFlowLayout.swift in Sources */,
 				E6B25B9E20A25CD1004C58DB /* TouchIDModality.swift in Sources */,
 				E6B25BB820A25CD1004C58DB /* WifiModality.swift in Sources */,
 			);
@@ -913,6 +960,10 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K78G42H4U2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SensorKit-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -932,6 +983,10 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K78G42H4U2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "SensorKit-Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
